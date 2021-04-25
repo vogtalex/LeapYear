@@ -1,13 +1,16 @@
 def error_handling(num):
-	print("Please input a positive integer as a year.\n")
-
+	while(num < 0):
+		print("Please input a positive integer as a year.")
+		num = int(input("Enter a year: "))
+	return num
 
 print('\nWelcome to HW1!')
 
 num = int(input("Enter a year: "))
 leapYear = 0
 
-error_handling(num)
+num = error_handling(num)
+
 
 if (num % 4) == 0:
 	leapYear = 1
