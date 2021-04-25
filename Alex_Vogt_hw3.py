@@ -4,7 +4,7 @@ def error_handling(num):
 		num = int(input("Enter a year: "))
 	return num
 
-print('\nWelcome to HW1!')
+print('\nWelcome to HW3!')
 
 num = int(input("Enter a year: "))
 leapYear = 0
